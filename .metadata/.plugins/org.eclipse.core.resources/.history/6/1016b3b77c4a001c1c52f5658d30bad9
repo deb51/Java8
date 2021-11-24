@@ -1,0 +1,15 @@
+package com.deb2;
+
+import java.util.function.BinaryOperator;
+
+public class Employee {
+	public static void main(String[] args) {
+
+		//Takes two input of same type and return same
+		BinaryOperator<String> bio=(String x,String y)->(x+y);
+
+		String bioOp = bio.apply("debasish", "  das");
+		System.out.println(bioOp);
+		
+	}
+}

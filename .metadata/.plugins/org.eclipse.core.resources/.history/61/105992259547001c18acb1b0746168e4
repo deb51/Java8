@@ -1,0 +1,5 @@
+package com.deb6.sortingonCollectionUsingLamda;
+
+public class Student {
+	int id;
+}

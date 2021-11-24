@@ -1,0 +1,16 @@
+package com.deb;
+
+public class StringReplaceMent {
+	public static void main(String[] args) {
+		
+	
+String s1="Depreciation and amortization (26,780.33) (30,594.80)";
+
+String s2="Other income 28.03 5,656.44";
+String s3="income 5,689.00 (36,512.00)\r\n"
+		+ "Net loss $ (34,174.95) $ (76,910.99)";
+
+s1.replaceAll(")", "");
+System.out.println(s1);
+	}
+}

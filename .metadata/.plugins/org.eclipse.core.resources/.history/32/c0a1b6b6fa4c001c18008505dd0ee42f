@@ -1,0 +1,18 @@
+package com.deb;
+
+import java.util.ArrayList;
+
+public class Student {
+	public static void main(String[] args) {
+
+
+		ArrayList al=new ArrayList();
+		al.add("Debasish");
+		al.add("Jvav");
+		al.add("YUg");
+		al.add("YUg");
+		al.add("yamini");
+		al.add("kayar");
+		
+	}
+}

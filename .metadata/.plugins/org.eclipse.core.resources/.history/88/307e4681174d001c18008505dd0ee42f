@@ -1,0 +1,30 @@
+package com.deb;
+
+import java.util.ArrayList;
+
+public class Book {
+	Integer bookId;
+	String bookName;
+	Integer bookPage;
+	Double bookPrice;
+
+	public Book(Integer bookId, String bookName, Integer bookPage, Double bookPrice) {
+		super();
+		this.bookId = bookId;
+		this.bookName = bookName;
+		this.bookPage = bookPage;
+		this.bookPrice = bookPrice;
+	}
+
+	@Override
+	public String toString() {
+		return "Book [bookId=" + bookId + ", bookName=" + bookName + ", bookPage=" + bookPage + ", bookPrice="
+				+ bookPrice + "]";
+	}
+
+	public static void main(String[] args) {
+
+		ArrayList<Book> al = new ArrayList<Book>();
+		al.add(new Book(101, "Java", 50, 250));
+	}
+}

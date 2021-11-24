@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.deb1.comsumer&apos; to &apos;com.deb1&apos;&#x0D;&#x0A;- Original project: &apos;04-PredefinedFunctionalInterface&apos;&#x0D;&#x0A;- Original element: &apos;04-PredefinedFunctionalInterface/src/com.deb1.comsumer&apos;&#x0D;&#x0A;- Renamed element: &apos;04-PredefinedFunctionalInterface/src/com.deb1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.deb1.comsumer&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.deb1.comsumer" name="com.deb1" qualified="false" references="true" stamp="1637465074985" textual="false" version="1.0"/>
+</session>

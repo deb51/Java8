@@ -1,0 +1,15 @@
+package com.deb2;
+
+import java.util.stream.Stream;
+
+public class Emp {
+	public static void main(String[] args) {
+		
+		String[] s= {"Oracle","Java","Spring","Hibernate"};
+		
+		Stream<String> ofStream = Stream.of(s);
+		Stream<String> sortedStream = ofStream.sorted((x,y)->x.compareTo(y));
+		sortedStream.forEach((x)->System.out.println(x););
+	}
+
+}

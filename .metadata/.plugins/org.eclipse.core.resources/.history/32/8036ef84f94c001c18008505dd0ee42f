@@ -1,0 +1,12 @@
+package com.deb1;
+
+public class Ravan {
+
+	public static void main(String[] args) {
+		String []a= {"Debasish","Sonu"};
+		
+		System.out.println(a[0].toUpperCase());
+		System.out.println(a[1].toUpperCase());
+		System.out.println(a[2].toUpperCase());
+	}
+}

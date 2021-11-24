@@ -1,0 +1,25 @@
+package com.deb3.TerminalOperation;
+
+import java.util.ArrayList;
+import java.util.stream.Stream;
+
+public class Topper {
+	public static void main(String[] args) {
+
+		ArrayList<Integer> l = new ArrayList();
+		l.add(15);
+		l.add(17);
+		l.add(2);
+		l.add(19);
+		l.add(9);
+		l.add(115);
+		l.add(221);
+		l.add(15);
+		l.add(221);
+		
+		Stream<Integer> steamlist = l.stream();
+		//System.out.println(countlist.count());
+		boolean noneMatchList = steamlist.noneMatch((x)->x%5==0);
+		System.out.println(noneMatchList);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;06-CollectorsClass&apos; to &apos;06-StreamApi-2&apos;" description="Rename resource &apos;06-CollectorsClass&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/06-CollectorsClass" name="06-StreamApi-2" stamp="1637737887454" updateReferences="true"/>
+</session>

@@ -1,0 +1,13 @@
+package com.deb.SpringFirst;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       BeanFactory context=BeanFactoryApplicationContext.getBean("");
+    }
+}

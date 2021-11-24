@@ -1,0 +1,14 @@
+package com.deb1;
+
+public class Honda {
+
+	}
+
+	public static void main(String[] args) {
+		Engine eng = () -> {
+			System.out.println("Lamda expp engine interface");
+		};
+		eng.engineNumber();
+
+	}
+}

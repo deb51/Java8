@@ -1,0 +1,17 @@
+package com.deb1.comsumer;
+
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+
+public class Student {
+	public static void main(String[] args) {
+
+
+		Consumer<String> si=(String x)->System.out.println("The giver bynber is "+x);
+		si.accept("15");
+		
+		Predicate<Integer> p1=(x)->x%2==0;
+		boolean test = p1.test(100);
+		System.out.println(test);
+	}
+}

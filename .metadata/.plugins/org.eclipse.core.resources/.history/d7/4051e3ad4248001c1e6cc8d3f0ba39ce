@@ -1,0 +1,5 @@
+package com.deb2;
+
+public interface StudentInterface1 {
+ public void m1();
+}

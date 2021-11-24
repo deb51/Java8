@@ -1,0 +1,22 @@
+package com.deb3;
+
+import java.util.Scanner;
+import java.util.function.Supplier;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		
+		//Case 1
+		Supplier<Double> sup=()->{
+			System.out.println("Enter the value:: ");
+			int value =new Scanner(System.in).nextInt();
+			return Math.sqrt(value);
+		};
+		System.out.println(sup.get());
+		
+		//Case 2
+		Supplier<Integer> sup1=()->25;
+		System.out.println(sup1.get());
+	}
+}

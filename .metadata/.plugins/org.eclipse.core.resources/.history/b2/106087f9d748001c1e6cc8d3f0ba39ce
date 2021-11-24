@@ -1,0 +1,11 @@
+package com.deb1.comsumer;
+
+import java.util.function.Consumer;
+
+public class Student {
+	public static void main(String[] args) {
+
+
+		Consumer<String> si=(String x)->System.out.println("The giver bynber is "+x);
+	}
+}

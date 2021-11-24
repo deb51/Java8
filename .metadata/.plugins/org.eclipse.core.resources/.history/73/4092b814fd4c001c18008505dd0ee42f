@@ -1,0 +1,24 @@
+package com.deb;
+
+import java.util.ArrayList;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+public class Student {
+	public static void main(String[] args) {
+
+
+		ArrayList<String> al=new ArrayList();
+		al.add("Debasish");
+		al.add("Jvav");
+		al.add("YUg");
+		al.add("YUg");
+		al.add("yamini");
+		al.add("kayar");
+		
+		Long collectNum = al.stream().map((x)->x).collect(Collectors.counting());
+		float floatValue = collectNum.floatValue();
+		System.out.println(floatValue);
+		System.out.println(collectNum);
+	}
+}

@@ -1,0 +1,52 @@
+package com.deb;
+
+import java.util.Scanner;
+
+public class StringReplaceMent {
+	public static void main(String[] args) {
+		String text="HERMA US Inc.\r\n"
+				+ "STATEMENTS OF INCOME (LOSS)\r\n"
+				+ "For the Years Ended December 31, 2019 and 2018\r\n"
+				+ "____\r\n"
+				+ "2019 2018\r\n"
+				+ "Sales, net $   10,029,070.15 $   8,229,810.02\r\n"
+				+ "Cost of goods sold        8,250,607.93 6,633,796.71\r\n"
+				+ "          Gross profit        1,778,462.22 1,596,013.31\r\n"
+				+ "Operating expenses:\r\n"
+				+ "  Labor and benefit costs:\r\n"
+				+ "    Wages and salaries           702,524.94 750,831.99\r\n"
+				+ "    Payroll taxes             63,422.38 60,262.59\r\n"
+				+ "    Other personnel costs             94,781.88           77,071.13\r\n"
+				+ "          Total labor and benefit costs           860,729.20         888,165.71\r\n"
+				+ "  Property costs:\r\n"
+				+ "    Rent             87,739.00 84,238.29\r\n"
+				+ "    Utilities             26,226.07           24,429.60\r\n"
+				+ "          Total property costs           113,965.07         108,667.89\r\n"
+				+ "  Advertising and selling expenses:\r\n"
+				+ "    Advertising and public relations           212,960.99 227,107.90\r\n"
+				+ "    Travel expenses           258,434.31 175,314.51\r\n"
+				+ "    Meals and entertainment             27,475.47           19,703.21\r\n"
+				+ "          Total advertising and selling expenses           498,870.77         422,125.62\r\n"
+				+ "  General and administrative expenses:\r\n"
+				+ "    Repairs and maintenance             24,096.62 21,771.75\r\n"
+				+ "    Office supplies and expenses               8,237.96 5,895.36\r\n"
+				+ "    Legal and professional fees           210,787.78 186,865.24\r\n"
+				+ "    Insurance             37,424.56 27,740.54\r\n"
+				+ "    Bank charges               6,491.59             5,512.03\r\n"
+				+ "    Dues and subscriptions               2,000.00                     -\r\n"
+				+ "    Postage 61.15 343.61\r\n"
+				+ "    Other general and administrative expenses                   -                486.41\r\n"
+				+ "          Total general and administrative expenses           289,099.66         248,614.94\r\n"
+				+ "          Total operating expenses        1,762,664.70      1,667,574.16\r\n"
+				+ "         Income (loss) before interest, taxes and depreciation             15,797.52         (71,560.85)\r\n"
+				+ "The accompanying notes are an integral part\r\n"
+				+ "of these financial statements\r\n"
+				+ "-5-\r\n"
+				+ "";
+		String oneLine = text.toUpperCase().replaceAll("[\r\n]+", " ").replaceAll(" ", " ");
+		String[] lines = text.toUpperCase().split("\\n");
+
+       new CustomizeLines().getNumberOfLinesFromTop(lines);
+	
+	}
+}

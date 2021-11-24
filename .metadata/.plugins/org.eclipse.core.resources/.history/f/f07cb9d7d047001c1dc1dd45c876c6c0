@@ -1,0 +1,12 @@
+package com.deb2;
+
+public class Teacher {
+
+	public void check() {
+		System.out.println("this is thread executing by: Method References");;
+	}
+
+	public static void main(String[] args) {
+		Teacher tc=
+	}
+}

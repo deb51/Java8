@@ -1,0 +1,22 @@
+package com.deb;
+
+import java.util.Scanner;
+
+public class CustomizeLines {
+public void getNumberOfLinesFromTop(String []lines) {
+	System.out.println("Enter the number of lines you want");
+	Scanner sc=new Scanner(System.in);
+	int lineNumber=sc.nextInt();
+	if(lineNumber<=(lines.length)) {
+	for(int i=0;i<lineNumber;i++) {
+		String present=lines[i].toString();
+		System.out.println(present);
+		}
+	}else {
+		for(int i=0;i<lines.length;i++) {
+			String present=lines[i].toString();
+			System.out.println(present);
+			}
+	}
+}
+}

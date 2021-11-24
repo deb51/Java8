@@ -1,0 +1,12 @@
+package com.deb1;
+
+public class Ravan {
+
+	public static void main(String[] args) {
+		String []a= {"10","12"};
+		
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+	}
+}

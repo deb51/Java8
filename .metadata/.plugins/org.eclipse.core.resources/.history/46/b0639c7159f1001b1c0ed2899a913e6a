@@ -1,0 +1,7 @@
+package com.deb.SpringFirst;
+
+public class Address {
+private String place;
+private int pin;
+
+}

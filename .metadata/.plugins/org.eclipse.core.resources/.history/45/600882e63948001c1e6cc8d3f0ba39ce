@@ -1,0 +1,9 @@
+package com.deb2;
+
+public class Student {
+	public String check(String msgs ) {
+		System.out.println("this is Student executing by: Method References");
+		
+		return msgs;
+	}
+}
